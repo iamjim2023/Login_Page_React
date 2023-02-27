@@ -16,7 +16,6 @@ const LoginForm = ({ setIsLoggedIn }) => {
     password: "Invalid password",
     noUsername: "Please enter your username",
     noPassword: "Please enter your password",
-    UserAndPass: "Both username and password is incorrect",
   };
 
   const handleSubmit = (e) => {
