@@ -90,11 +90,6 @@ const LoginForm = ({ setIsLoggedIn }) => {
           Forgot Password?
         </a>
       </div>
-      <div className="icons">
-        <GoogleIcon className="icon" />
-        <FacebookIcon className="icon" />
-        <TwitterIcon className="icon" />
-      </div>
     </Card>
   );
 };
