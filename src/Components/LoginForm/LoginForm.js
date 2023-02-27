@@ -16,6 +16,7 @@ const LoginForm = ({ setIsLoggedIn }) => {
     password: "Invalid password",
     noUsername: "Please enter your username",
     noPassword: "Please enter your password",
+    UserAndPass: "Both username and password is incorrect",
   };
 
   const handleSubmit = (e) => {
@@ -33,7 +34,6 @@ const LoginForm = ({ setIsLoggedIn }) => {
       setErrorMessages({ name: "noPassword", message: errors.noPassword });
       return;
     }
-
     // Search for user credentials
     const currentUser = database.find((user) => user.username === username);
 
@@ -60,10 +60,8 @@ const LoginForm = ({ setIsLoggedIn }) => {
 
   return (
     <Card>
-      <h1 className="title">Sign In</h1>
-      <p className="subtitle">
-        Please log in using your username and password!
-      </p>
+      <h1 className="title">WELCOME</h1>
+      <p className="subtitle">Please login your credentials here!</p>
       <form onSubmit={handleSubmit}>
         <div className="inputs_container">
           <input
@@ -89,6 +87,11 @@ const LoginForm = ({ setIsLoggedIn }) => {
         <a href="" className="small">
           Forgot Password?
         </a>
+      </div>
+      <div className="icons">
+        <GoogleIcon className="icon" />
+        <FacebookIcon className="icon" />
+        <TwitterIcon className="icon" />
       </div>
     </Card>
   );
