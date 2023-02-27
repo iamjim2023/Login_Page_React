@@ -11,10 +11,11 @@
     padding: 0.75rem 1rem;
     border-radius: 10px;
     outline: 0;
+    cursor: pointer;
     font-size: 1rem;
     font-family: inherit;
-    cursor: pointer;
-    background-image: linear-gradient(135deg, #fd6585 10%, #0d25b9 100%);
+
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
     color: white;
     border: 0px solid transparent;
   }

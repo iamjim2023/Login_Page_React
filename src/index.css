@@ -7,14 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
   display: flex;
-  background-color: #000;
   justify-content: center;
   align-items: center;
-}
-body {
+  background: url(./assets/casino.jpg);
   background-size:cover;
-  background-position:top;
 }
+
 
 * {
   margin: 0;
